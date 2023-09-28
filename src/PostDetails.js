@@ -9,7 +9,7 @@ export default function PostDetails({ title, body }) {
     return p.id == postId;
   });
 
-  console.log(postId);
+  console.log(post);
   return (
     <>
       <h2> Post Details Page</h2>
