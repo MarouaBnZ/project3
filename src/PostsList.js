@@ -6,7 +6,7 @@ function PostsList() {
   const posts = useContext(postsContext);
   let postsLists = posts.map((post) => {
     return (
-      <Link key={post.id} to={`/postDetails/${post.id}`}>
+      <Link key={post.id} to={`/posts/${post.id}`}>
         <div
           key={post.id}
           style={{ background: "orange", padding: "20px", marginTop: "10px" }}
